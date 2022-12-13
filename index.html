@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="shortcut icon" href="/assets/img/rock-paper-scissors.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets//style/style.css" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>
+          Rock Paper Scissors
+          <img
+            src="/assets/img/rock-paper-scissors.png"
+            alt="rock-paper-scissors-icon"
+          />
+          Game
+        </h1>
+      </div>
+    </header>
+    <main>
+      <!-- Turn Game -->
+      <section>
+        <div class="turn_game">
+          <div class="user_turn">
+            <h2>Your Turn</h2>
+            <div id="user_img"></div>
+            <p id="user_choice"></p>
+          </div>
+          <div class="computer_turn">
+            <h2>Computer Choice</h2>
+            <div id="computer_img"></div>
+            <p id="computer_choice"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Game Results -->
+      <section id="player_result">
+        <div class="game_result">
+          <h3 id="result"></h3>
+        </div>
+
+        <!-- User Choice -->
+        <div class="choice">
+          <h3>Please choice</h3>
+          <button id="rock">Rock</button>
+          <button id="paper">Papper</button>
+          <button id="scissors">Scissors</button>
+        </div>
+        <div class="reset_game">
+          <button id="reset">Reset Game</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="/assets/script/script.js"></script>
+  </body>
+</html>

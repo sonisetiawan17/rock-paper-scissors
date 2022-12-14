@@ -46,28 +46,28 @@ function hasil() {
     document.body.style.backgroundColor = 'red';
     gameResult.style.color = 'red';
   } else if (userChoiceResult === 'paper' && computerChoiceResult === 'rock') {
-    result = 'Your Win!';
+    result = 'You Win!';
     document.body.style.backgroundColor = '#70e000';
     gameResult.style.color = '#70e000';
   } else if (
     userChoiceResult === 'paper' &&
     computerChoiceResult === 'scissors'
   ) {
-    result = 'Your Lose!';
+    result = 'You Lose!';
     document.body.style.backgroundColor = 'red';
     gameResult.style.color = 'red';
   } else if (
     userChoiceResult === 'scissors' &&
     computerChoiceResult === 'rock'
   ) {
-    result = 'Your Lose!';
+    result = 'You Lose!';
     document.body.style.backgroundColor = 'red';
     gameResult.style.color = 'red';
   } else if (
     userChoiceResult === 'scissors' &&
     computerChoiceResult === 'paper'
   ) {
-    result = 'Your Win!';
+    result = 'You Win!';
     document.body.style.backgroundColor = '#70e000';
     gameResult.style.color = '#70e000';
   } else {
